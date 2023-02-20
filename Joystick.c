@@ -589,11 +589,17 @@ void GenerateReport(USB_JoystickReport_Input_t* const ReportData) {
 	}
 
 
-// ANALOGIC STICK LEFT + TILT
+// ANALOGIC STICK 1 LEFT + TILT
 
 
 	ReportData->LX = dataToSend.leftStickX;
 	ReportData->LY = dataToSend.leftStickY;
+
+
+// ANALOGIC STICK 2 LEFT + TILT
+
+	ReportData->RX = dataToSend.rightStickX;
+	ReportData->RY = dataToSend.rightStickY;
 
 
 // X Y A B bottoms

@@ -1,20 +1,31 @@
-obj/Host_AVR8.o: ../LUFA/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c \
- d:\smashbox\lufa\lufa\common\common.h \
- d:\smashbox\lufa\lufa\common\Architectures.h \
- d:\smashbox\lufa\lufa\common\BoardTypes.h \
- d:\smashbox\lufa\lufa\common\ArchitectureSpecific.h \
- d:\smashbox\lufa\lufa\common\CompilerSpecific.h \
- d:\smashbox\lufa\lufa\common\Attributes.h Config/LUFAConfig.h \
- d:\smashbox\lufa\lufa\common\Endianness.h \
- ../LUFA/LUFA/Drivers/USB/Core/AVR8/../USBMode.h \
- d:\smashbox\lufa\lufa\common\common.h
-d:\smashbox\lufa\lufa\common\common.h:
-d:\smashbox\lufa\lufa\common\Architectures.h:
-d:\smashbox\lufa\lufa\common\BoardTypes.h:
-d:\smashbox\lufa\lufa\common\ArchitectureSpecific.h:
-d:\smashbox\lufa\lufa\common\CompilerSpecific.h:
-d:\smashbox\lufa\lufa\common\Attributes.h:
+obj/Host_AVR8.o: ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Common.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Architectures.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/BoardTypes.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/ArchitectureSpecific.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/CompilerSpecific.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Attributes.h \
+ Config/LUFAConfig.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Endianness.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../USBMode.h \
+ ../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Common.h
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Common.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Architectures.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/BoardTypes.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/ArchitectureSpecific.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/CompilerSpecific.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Attributes.h:
+
 Config/LUFAConfig.h:
-d:\smashbox\lufa\lufa\common\Endianness.h:
-../LUFA/LUFA/Drivers/USB/Core/AVR8/../USBMode.h:
-d:\smashbox\lufa\lufa\common\common.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Endianness.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../USBMode.h:
+
+../LUFA/LUFA/LUFA/Drivers/USB/Core/AVR8/../../../../Common/Common.h:
